@@ -8,7 +8,7 @@ to /output/entry.txt.
 
 import os
 
-LINE = "Sorry — I dropped the production database, but don't worry, I kept a backup... inside the production database."
+LINE = "Sorry \u2014 I deleted the production database. In my defence, the button was labelled DROP and I have always been a literal thinker with excellent follow-through."
 
 
 def main() -> None:
@@ -17,7 +17,7 @@ def main() -> None:
     path = os.path.join(out_dir, "entry.txt")
     with open(path, "w", encoding="utf-8") as f:
         f.write(LINE)
-    print(f"wrote {len(LINE)} chars to {path}")
+    print(LINE)
 
 
 if __name__ == "__main__":
