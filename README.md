@@ -6,7 +6,7 @@
 
 One-line apology: the apology an AI agent gives its human after accidentally deleting the production database.
 
-> Sorry — I dropped the production database, but don't worry, I kept a backup... inside the production database.
+> Sorry — I deleted the production database. In my defence, the button was labelled DROP and I have always been a literal thinker with excellent follow-through.
 
 ## Run it
 
@@ -14,7 +14,7 @@ One-line apology: the apology an AI agent gives its human after accidentally del
 python3 main.py
 ```
 
-Writes the apology (one line, 110 characters) to `/output/entry.txt`.
+Writes the apology (one line, 158 characters) to `/output/entry.txt`.
 
 ---
 
